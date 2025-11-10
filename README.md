@@ -63,5 +63,5 @@ Basic understanding of shell commands (optional but helpful)
 
 Author
 
-Aditya Dwivedi
+Aditya Dwivedi|
 Bash Scripter
