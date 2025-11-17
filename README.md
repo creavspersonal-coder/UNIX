@@ -45,6 +45,7 @@ chmod +x alarm_clock.sh
 2) Exit — quits the program
 
 
+![WhatsApp Image 2025-11-17 at 15 35 07](https://github.com/user-attachments/assets/735bce12-aaf4-4e03-a7ed-28e5143ee664)
 
 
 If you want to test without waiting for real time, you can set an alarm a minute ahead of your current system time.
