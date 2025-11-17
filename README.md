@@ -52,16 +52,7 @@ If you want to test without waiting for real time, you can set an alarm a minute
 Requirements
 
 Linux system with Bash
-
-at command installed and atd service running
-
-sudo systemctl start atd
-sudo systemctl enable atd
-
-Basic understanding of shell commands (optional but helpful)
-
-
 Author
 
-Aditya Dwivedi|
+Aditya Dwivedi |
 Bash Scripter
