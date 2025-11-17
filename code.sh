@@ -3,14 +3,14 @@
 set_alarm() {
     read -p "Enter alarm time (HH:MM, 24-hour): " alarm_time
 
-    # Simple validation: must have exactly two digits, colon, two digits
+    # Check basic format: two digits, colon, two digits
     if ! [[ "$alarm_time" =~ ^[0-9]{2}:[0-9]{2}$ ]]; then
         echo "invalid time format"
         return 1
     fi
 
     echo "Alarm set for $alarm_time"
-    echo 'echo "Alarm! It is now time!"' | at "$alarm_time" 2>/dev/null
+    echo 'echo "Alarm! It is now time!"' | at "$alarm_time"
 
     if [ $? -eq 0 ]; then
         echo "Alarm scheduled successfully."
